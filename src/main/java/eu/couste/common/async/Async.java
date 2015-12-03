@@ -2,7 +2,7 @@ package eu.couste.common.async;
 
 public abstract class Async {
 
-    public static Waiter runAsync(Task... tasks) {
+    public static Waiter run(Task... tasks) {
         Waiter waiter = new Waiter();
 
         for (Task t : tasks) {

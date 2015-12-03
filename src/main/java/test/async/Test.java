@@ -25,7 +25,7 @@ public class Test {
 
         start = System.currentTimeMillis();
 
-        Async.runAsync(new Task("1") {
+        Async.run(new Task("1") {
 
             @Override
             public Object run() {
